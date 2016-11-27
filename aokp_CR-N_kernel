@@ -1,0 +1,158 @@
+build/core/binary.mk:1231: external/deqp/Android.mk: libdeqp: Unused source files: \
+build/core/binary.mk:1231: external/pdfium/third_party/pdfiumbigint.mk: libpdfiumbigint: Unused source files: bigint/BigInteger.cc bigint/BigIntegerUtils.cc bigint/BigUnsigned.cc bigint/BigUnsignedInABase.cc
+frameworks/av/camera/cameraserver/Android.mk:18: Target has integrated cameraserver into mediaserver. This is weakening security measures introduced in 7.0
+build/core/package_internal.mk:143: Empty argument supplied to find-subdir-assets
+find: ‘/home/nepo/android/aokp7/out/target/common/obj/SHARED_LIBRARIES/libwifi-hal-mock_intermediates’: No such file or directory
+build/core/package_internal.mk:143: Empty argument supplied to find-subdir-assets
+No private recovery resources for TARGET_DEVICE quark
+build/core/java.mk:334: warning: overriding commands for target `/home/nepo/android/aokp7/out/target/common/obj/APPS/Dialer_intermediates/src/src/org/codeaurora/presenceserv/IPresenceService.java'
+build/core/java.mk:334: warning: ignoring old commands for target `/home/nepo/android/aokp7/out/target/common/obj/APPS/Dialer_intermediates/src/src/org/codeaurora/presenceserv/IPresenceService.java'
+build/core/java.mk:334: warning: overriding commands for target `/home/nepo/android/aokp7/out/target/common/obj/APPS/Dialer_intermediates/src/src/org/codeaurora/presenceserv/IPresenceServiceCB.java'
+build/core/java.mk:334: warning: ignoring old commands for target `/home/nepo/android/aokp7/out/target/common/obj/APPS/Dialer_intermediates/src/src/org/codeaurora/presenceserv/IPresenceServiceCB.java'
+build/core/base_rules.mk:316: warning: overriding commands for target `/home/nepo/android/aokp7/out/target/product/quark/root/res/images/charger/battery_fail.png'
+build/core/base_rules.mk:316: warning: ignoring old commands for target `/home/nepo/android/aokp7/out/target/product/quark/root/res/images/charger/battery_fail.png'
+build/core/Makefile:40: warning: overriding commands for target `/home/nepo/android/aokp7/out/target/product/quark/system/vendor/lib/libbt-vendor.so'
+build/core/base_rules.mk:316: warning: ignoring old commands for target `/home/nepo/android/aokp7/out/target/product/quark/system/vendor/lib/libbt-vendor.so'
+Starting build with ninja
+ninja: Entering directory `.'
+[  0% 8/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_AudioExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_AudioExtensions.h
+[  0% 9/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/copybit.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/copybit.h
+[  0% 10/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/copybit_priv.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/copybit_priv.h
+[  0% 11/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/gralloc_priv.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/gralloc_priv.h
+[  0% 12/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/gr.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/gr.h
+[  0% 13/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/alloc_controller.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/alloc_controller.h
+[  0% 14/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/memalloc.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/memalloc.h
+[  0% 15/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/display_config.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/display_config.h
+[  0% 16/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/mdp_version.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/mdp_version.h
+[  0% 17/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/qdMetaData.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/qdMetaData.h
+[  0% 18/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/IQService.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/IQService.h
+[  0% 19/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/IQClient.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/qcom/display/IQClient.h
+[  0% 20/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Audio.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Audio.h
+[  0% 21/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Component.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Component.h
+[  0% 22/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_ContentPipe.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_ContentPipe.h
+[  0% 23/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Core.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Core.h
+[  0% 24/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Image.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Image.h
+[  0% 25/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Index.ha
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Index.h
+[  0% 26/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_IVCommon.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_IVCommon.h
+[  0% 27/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Other.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Other.h
+[  0% 28/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_QCOMExtns.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_QCOMExtns.h
+[  0% 29/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Types.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Types.h
+[  0% 30/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Video.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_Video.h
+[  0% 31/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/qc_omx_common.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/qc_omx_common.h
+[  0% 32/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/qc_omx_component.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/qc_omx_component.h
+[  0% 33/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/qc_omx_msg.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/qc_omx_msg.h
+[  0% 34/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_AudioIndexExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_AudioIndexExtensions.h
+[  0% 35/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_CoreExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_CoreExtensions.h
+[  0% 36/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_CoreExt.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_CoreExt.h
+[  0% 37/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_FileFormatExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_FileFormatExtensions.h
+[  0% 38/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_IVCommonExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_IVCommonExtensions.h
+[  0% 39/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_SourceExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_SourceExtensions.h
+[  0% 40/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_VideoExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_VideoExtensions.h
+[  0% 41/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_StreamingExtensions.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QOMX_StreamingExtensions.h
+[  0% 42/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_IndexExt.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_IndexExt.h
+[  0% 43/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_VideoExt.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/OMX_VideoExt.h
+[  0% 45/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QCMediaDefs.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QCMediaDefs.h
+[  0% 46/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QCMetaData.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-core/omxcore/QCMetaData.h
+[  0% 47/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-video/DivxDrmDecrypt/DivXDrmDecrypt.h
+Header: /home/nepo/android/aokp7/out/target/product/quark/obj/include/mm-video/DivxDrmDecrypt/DivXDrmDecrypt.h
+[  0% 48/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libcrypto_utils_static_intermediates/import_includes
+Import includes file: /home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libcrypto_utils_static_intermediates/import_includes
+[  0% 49/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/NOTICE_FILES/src/bin/adb.txt
+Notice file: system/core/adb/NOTICE -- /home/nepo/android/aokp7/out/host/linux-x86/obj/NOTICE_FILES/src//bin/adb.txt
+[  0% 50/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libdiagnose_usb_intermediates/import_includes
+Import includes file: /home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libdiagnose_usb_intermediates/import_includes
+[  0% 51/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/EXECUTABLES/adb_intermediates/export_includes
+Export includes file: -- /home/nepo/android/aokp7/out/host/linux-x86/obj/EXECUTABLES/adb_intermediates/export_includes
+[  0% 52/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/NOTICE_FILES/src/lib64/libadb.a.txt
+Notice file: system/core/adb/NOTICE -- /home/nepo/android/aokp7/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libadb.a.txt
+[  0% 53/33896] build /home/nepo/android/aokp7/out/host/windows-x86/obj/NOTICE_FILES/src/lib/libadb.a.txt
+Notice file: system/core/adb/NOTICE -- /home/nepo/android/aokp7/out/host/windows-x86/obj/NOTICE_FILES/src//lib/libadb.a.txt
+[  0% 54/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/libc++abi.a
+host StaticLib: libc++abi (/home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++abi_intermediates/libc++abi.a)
+[  0% 55/33896] build /home/nepo/android/aokp7/out/host/common/obj/JAVA_LIBRARIES/jsr305lib_intermediates/classes-jarjar.jar
+Copying: /home/nepo/android/aokp7/out/host/common/obj/JAVA_LIBRARIES/jsr305lib_intermediates/classes-jarjar.jar
+[  0% 56/33896] build /home/nepo/android/aokp7/out/host/common/obj/JAVA_LIBRARIES/jsr305lib_intermediates/javalib.jar
+Copying: /home/nepo/android/aokp7/out/host/common/obj/JAVA_LIBRARIES/jsr305lib_intermediates/javalib.jar
+[  0% 57/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++_static_intermediates/libc++_static.a
+host StaticLib: libc++_static (/home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libc++_static_intermediates/libc++_static.a)
+[  0% 58/33896] build /home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ/.config
+FAILED: /bin/bash -c "(echo -e \"\\033[32m\"\"Building Kernel Config\"\"\\033[0m\" ) && (make -j4  -C kernel/motorola/apq8084 O=/home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ ARCH=arm CROSS_COMPILE=\" /home/nepo/android/aokp7/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-\" VARIANT_DEFCONFIG= SELINUX_DEFCONFIG= quark_defconfig ) && (if [ ! -z \"\" ]; then                         echo \"Overriding kernel config with ''\";                      echo  >> /home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ/.config;                      make -j4 -C kernel/motorola/apq8084 O=/home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ ARCH=arm CROSS_COMPILE=\" /home/nepo/android/aokp7/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-\" oldconfig; fi ) && (make -j4 -C kernel/motorola/apq8084 O=/home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ ARCH=arm CROSS_COMPILE=\" /home/nepo/android/aokp7/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-\" savedefconfig ) && (if [ ! -z \"\" ]; then                    echo \"Using additional config ''\";                    kernel/motorola/apq8084/scripts/kconfig/merge_config.sh -m -O /home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ /home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ/.config kernel/motorola/apq8084/arch/arm/configs/;                      make -j4 -C kernel/motorola/apq8084 O=/home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ ARCH=arm CROSS_COMPILE=\" /home/nepo/android/aokp7/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-\" KCONFIG_ALLCONFIG=/home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ/.config alldefconfig; fi )"
+Building Kernel Config
+make: Entering directory '/home/nepo/android/aokp7/kernel/motorola/apq8084'
+  HOSTCC  scripts/basic/fixdep
+/bin/sh: 1: ccache: not found
+scripts/Makefile.host:118: recipe for target 'scripts/basic/fixdep' failed
+make[2]: *** [scripts/basic/fixdep] Error 127
+/home/nepo/android/aokp7/kernel/motorola/apq8084/Makefile:432: recipe for target 'scripts_basic' failed
+make[1]: *** [scripts_basic] Error 2
+make[1]: *** Waiting for unfinished jobs....
+  GEN     /home/nepo/android/aokp7/out/target/product/quark/obj/KERNEL_OBJ/Makefile
+Makefile:135: recipe for target 'sub-make' failed
+make: *** [sub-make] Error 2
+make: Leaving directory '/home/nepo/android/aokp7/kernel/motorola/apq8084'
+[  0% 58/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/lib/libc++.so
+host SharedLib: libc++ (/home/nepo/android/aokp7/out/host/linux-x86/obj/lib/libc++.so)
+[  0% 58/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/EXECUTABLES/adb_intermediates/client/main.o
+host C++: adb <= system/core/adb/client/main.cpp
+[  0% 58/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/EXECUTABLES/adb_intermediates/console.o
+host C++: adb <= system/core/adb/console.cpp
+[  0% 58/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/EXECUTABLES/adb_intermediates/bugreport.o
+host C++: adb <= system/core/adb/bugreport.cpp
+[  0% 58/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/STATIC_LIBRARIES/libadb_intermediates/adb.o
+host C++: libadb <= system/core/adb/adb.cpp
+[  0% 58/33896] build /home/nepo/android/aokp7/out/host/linux-x86/obj/EXECUTABLES/adb_intermediates/commandline.o
+host C++: adb <= system/core/adb/commandline.cpp
+[  0% 58/33896] build /home/nepo/android/aokp7/out/host/common/obj/JAVA_LIBRARIES/guavalib_intermediates/classes-full-debug.jar
+host Java: guavalib (/home/nepo/android/aokp7/out/host/common/obj/JAVA_LIBRARIES/guavalib_intermediates/classes)
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+ninja: build stopped: subcommand failed.
+build/core/ninja.mk:151: recipe for target 'ninja_wrapper' failed
+make: *** [ninja_wrapper] Error 1
+make: Leaving directory '/home/nepo/android/aokp7'
+
+#### make failed to build some targets (51 seconds) ####
+
+nepo@roodbuild:~/android/aokp7$
