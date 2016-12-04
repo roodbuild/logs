@@ -1,0 +1,26 @@
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy
+FAILED: /bin/bash -c "(/media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/host/linux-x86/bin/checkpolicy -M -c 30 -o /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy.tmp /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/policy.conf ) && (/media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/host/linux-x86/bin/checkpolicy -M -c 30 -o /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates//sepolicy.dontaudit /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/policy.conf.dontaudit ) && (/media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/host/linux-x86/bin/sepolicy-analyze /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy.tmp permissive > /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy.permissivedomains ) && (if [ \"userdebug\" = \"user\" -a -s /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy.permissivedomains ]; then 		echo \"==========\" 1>&2; 	echo \"ERROR: permissive domains not allowed in user builds\" 1>&2; 		echo \"List of invalid domains:\" 1>&2; 		cat /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy.permissivedomains 1>&2; 		exit 1; 		fi ) && (mv /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy.tmp /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/sepolicy )"
+libsepol.report_failure: neverallow on line 571 of system/sepolicy/domain.te (or line 9448 of policy.conf) violated by allow qca1530 qca1530_prop:property_service { set };
+libsepol.check_assertions: 1 neverallow failures occurred
+Error while expanding policy
+/media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/host/linux-x86/bin/checkpolicy:  loading policy configuration from /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/ETC/sepolicy_intermediates/policy.conf
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12.../target/product/quark/obj/EXECUTABLES/init_intermediates/ueventd_parser.o
+target thumb C++: init <= system/core/init/ueventd_parser.cpp
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12.../target/product/quark/obj/EXECUTABLES/init_intermediates/signal_handler.o
+target thumb C++: init <= system/core/init/signal_handler.cpp
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12/out/aokp7/target/product/quark/obj/EXECUTABLES/init_intermediates/init.o
+target thumb C++: init <= system/core/init/init.cpp
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12...kp7/target/product/quark/obj/EXECUTABLES/init_intermediates/vendor_init.o
+target thumb C++: init <= system/core/init/vendor_init.cpp
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12...aokp7/target/product/quark/obj/EXECUTABLES/init_intermediates/watchdogd.o
+target thumb C++: init <= system/core/init/watchdogd.cpp
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12...aokp7/target/product/quark/obj/EXECUTABLES/init_intermediates/keychords.o
+target thumb C++: init <= system/core/init/keychords.cpp
+[ 32% 11262/34265] build /media/nepo/d8db8533-05fb-4e2a-87c1-f947c54bbb12...kp7/target/product/quark/obj/STATIC_LIBRARIES/libinit_intermediates/log.o
+target thumb C++: libinit <= system/core/init/log.cpp
+ninja: build stopped: subcommand failed.
+build/core/ninja.mk:151: recipe for target 'ninja_wrapper' failed
+make: *** [ninja_wrapper] Error 1
+make: Leaving directory '/home/nepo/android/aokp7'
+
+#### make failed to build some targets (10:24 (mm:ss)) ####
